@@ -43,6 +43,7 @@ header{
 img{
     width: 100px;
     height: 100px;
+    border-radius: 22px;
 }
 
 .column {
@@ -51,6 +52,7 @@ img{
     float: left;
     margin-bottom: 40px;
     box-shadow: 0px 0px 22px -1px #000000;
+    border-radius: 22px;
 }
 .middle{
     margin-left: 20px;
