@@ -22,18 +22,15 @@ header{
     font-size: 50px;
     color: purple;
     margin-bottom: 40px;
+    
 }
 /* header end*/
 
-/* container start */
-.clearfix::after {
+/* main container start */
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
-}
-
-.float-container {
-    width: 1400px;
 }
 
 .float-card{
@@ -43,7 +40,8 @@ header{
 img{
     width: 100px;
     height: 100px;
-    border-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
 }
 
 .column {
@@ -81,4 +79,4 @@ a{
 .description p{
     font-size: 12px;
 }
-/* container end */
+/* main container end */
