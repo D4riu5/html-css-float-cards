@@ -30,7 +30,6 @@ h1{
 
 .float-container {
     width: 1400px;
-    height: 160px;
 }
 
 .float-card{
@@ -43,10 +42,12 @@ img{
 }
 
 .column {
-    width: calc(100% / 3);
-    height: 100px;
+    width: calc(100% / 3 - 40px/3);
     background-color: rgb(16, 3, 31);
     float: left;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 22px -1px #000000;
+    
 }
 
 a{
@@ -68,13 +69,9 @@ a{
     font-size: 12px;
 }
 
-.left{
-    border-right: 40px solid white;
-}
+
 .middle{
-    border-left: 20px solid white;
-    border-right: 20px solid white;
+    margin-left: 20px;
+    margin-right: 20px; 
 }
-.right{
-    border-left: 40px solid white;
-}
+
