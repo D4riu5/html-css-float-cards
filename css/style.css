@@ -1,0 +1,80 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Signika Negative', sans-serif; 
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    padding: 50px 0 0 0;
+    margin-bottom: 50px;
+}
+h1{
+    color: purple;
+    margin-bottom: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.float-container {
+    width: 1400px;
+    height: 160px;
+}
+
+.float-card{
+    float: left;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.column {
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: rgb(16, 3, 31);
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: lightseagreen;
+    padding-left: 10px
+}
+
+.description h1, 
+.description p{
+    margin-top: 5px;
+    color: white;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.description p{
+    font-size: 12px;
+}
+
+.left{
+    border-right: 40px solid white;
+}
+.middle{
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+}
+.right{
+    border-left: 40px solid white;
+}
